@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Faustina:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+h2 { 
+	font-family: 'Cormorant Garamond'; 
+    margin: 0;
+}
+
+h1 { 
+	font-family: 'Faustina'; 
+}
+
+p { 
+	font-family: 'Cormorant Garamond', 'Faustina', 'PT Serif'; 
+}
+
+div#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    
+}
+
+header {
+    background-color: #575757;
+    display: grid;
+    grid-template-columns: 150px auto;
+    position: relative;
+    z-index: 1;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    background-color: #575757;
+    color: #f2f2f2;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+    z-index: 2;
+
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#hero-msg h1 {
+    text-align: center;
+}
+
+#hero-msg h4 {
+    text-align: center;
+    color: white;
+
+}
+
+.button-box {
+    text-align: center;
+}
+
+
+div#hero section#hero-msg {
+    text-align: center;
+    
+}
+
+
+
+main {
+    background-color: #f2f2f2;
+    text-align: center;
+
+}
+
+main section img {
+    box-sizing: border-box;
+
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+.card-img, .mountains {
+    width: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+
+}
+
+.mountains {
+    grid-column: 2/7;
+    grid-row: 5/9;
+}
+
+
+div#background {
+    height: 725px;
+    background-color: #575757;
+
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'PT Serif'; 
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover {
+    background-color: #f2f2f2;
+    color: #575757;
+
+}
+
+.book, .join {
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color: #575757;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+
+}
+
+.msg {
+    background-color: #575757;
+    font-family: 'Cormorant Garamond'; 
+    font-size: .8em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+}
+
+footer {
+    background-color: #575757;
+    color: #f2f2f2;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-title {
+    color:  #f2f2f2;
+   	font-family: 'Faustina'; 
+	font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: #f2f2f2;
+
+}
+
+h1 {
+    color: #f2f2f2;
+
+}
+
+.book:hover, .join:hover {
+    background-color: #575757;
+    color: #f2f2f2;
+    box-shadow: 3px 3px 3px 3px #f2f2f2
+}
+
+.msg h2 {
+    color: #f2f2f2;
+}
+
+.msg p {
+    color: #f2f2f2;
+    padding-bottom: 15px;
+}
+
+footer a {
+    margin-top: 200px;
+    color: #f2f2f2;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    background-color: #f2f2f2;
+    color: #575757;
+}
+
+.icon {
+    width: 50px;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.rivers-card {
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.camping-card {
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.card-img {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #f2f2f2;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
+
+#hero2 {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    z-index: 2;
+    height: 125px;
+    background-color: #575757;
+
+}
+
+#hero-box2 {
+    grid-column: 1/4;
+    grid-row: 1/3;
+
+}
+
+#hero-msg2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+ 
+}
+
+#hero-msg2 h1 {
+    text-align: center;
+}
+
+#hero-msg2 h4 {
+    text-align: center;
+    color: white;
+
+}
+
+.button-box2 {
+    text-align: center;
+}
+
+
+div#hero2 section#hero-msg2 {
+    text-align: center;
+    
+}
+
+.rates-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+}
+
+
+
+
+
+.home-title2 {
+    color:  #f2f2f2;
+   	font-family: 'Faustina'; 
+	font-size: 2em;
+    margin-top: 10px;
+}
+
+.rate1-card {
+    margin: 20px 0;
+    grid-column: 7/9;
+    grid-row: 1/2;
+}
+
+.rate2-card {
+    margin: 20px 0;
+    grid-column: 7/9;
+    grid-row: 3/4;
+}
+
+.rate3-card {
+    margin: 20px 0;
+    grid-column: 3/5;
+    grid-row: 1/3;
+}
+
+.rate4-card {
+    margin: 20px 0;
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+
+
+
+
+div#background2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #575757;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr
+    
+
+
+}
+
+div#background3 {
+    padding: 20px;
+    background-color: #575757;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+
+}
+
+.label {
+    font-size: large;
+    
+
+}
+
+label {
+display: inline-block;
+width: 20%;
+text-align: right;
+color: white;
+}
+
+.ratecalc {
+    margin: 20px 0;
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+
+.ratename {
+    margin: 20px 0;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.request {
+    margin: 20px 0;
+    grid-column: 1/8;
+    grid-row: 1/2;
+    text-align: center;
+}
+
+.left {
+    margin: 20px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    
+}
+
+.right {
+    margin: 20px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+    
+}
+
+.requesttext {
+    margin: 20px 0;
+    grid-column: 1/8;
+    grid-row: 4/5;
+
+}
+
+input {
+    width: 75%;
+}
+
+select {
+    width: 75%;
+}
+
+.ratecalc input {
+    width: 40%;
+}
+
+.ratecalc select {
+    width: 40%;
+}
+
+textarea {
+    width: 80%;
+}
+
+.requesttext label {
+    text-align: center;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+.moveDown {
+    margin-top: 3em;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
